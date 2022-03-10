@@ -1,10 +1,10 @@
 import React from "react";
 
-function ComParametro(param) {
+function ComParametro(props) {
     return (
         <>
-            <h3>{param.titulo}</h3>
-            <p>{param.subtitulo}</p>   
+            <h3>{props.titulo}</h3>
+            <p>{props.subtitulo}</p>   
         </>
     );
 }
